@@ -1,0 +1,72 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Compiled executables
+udp_publisher
+udp_subscriber
+shm_publisher
+shm_subscriber
+shm_publisher_improved
+shm_subscriber_improved
+zmq_publisher
+zmq_subscriber
+latency_test
+test_shm
+debug_size
+
+# Object files
+*.o
+*.obj
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Shared memory files (created during testing)
+/tmp/test_shm*
+/tmp/shm_*
+
+# Test output files
+latency_results.csv
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Core dumps
+core
+core.*
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Package managers
+node_modules/
+__pycache__/
+
+# Documentation build
+docs/_build/
+site/
+
+# Profiling output
+*.prof
+perf.data*
